@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "next-theme-ui-example",
+  "version": "0.2.49",
+  "main": "index.js",
+  "author": "Brent Jackson <jxnblk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.15",
+    "@mdx-js/loader": "^1.0.19",
+    "@next/mdx": "^9.0.3",
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "theme-ui": "^0.2.49"
+  }
+}
