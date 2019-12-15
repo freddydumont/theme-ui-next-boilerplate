@@ -13,6 +13,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.15",
     "@mdx-js/loader": "^1.0.19",
+    "@mdx-js/react": "^1.5.1",
     "@next/mdx": "^9.0.3",
     "@theme-ui/components": "^0.2.50",
     "@theme-ui/presets": "^0.2.44",
@@ -23,15 +24,19 @@
     "theme-ui": "^0.2.49"
   },
   "devDependencies": {
+    "@types/node": "^12.12.17",
+    "@types/react": "^16.9.16",
+    "@types/theme-ui": "^0.2.6",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-config-react-app": "^5.1.0",
-    "eslint-plugin-flowtype": "^4.5.2",
+    "eslint-plugin-flowtype": "3.x",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react-hooks": "1.x",
+    "typescript": "^3.7.3"
   }
 }
