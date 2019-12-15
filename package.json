@@ -14,6 +14,7 @@
     "@emotion/core": "^10.0.15",
     "@mdx-js/loader": "^1.0.19",
     "@next/mdx": "^9.0.3",
+    "@theme-ui/components": "^0.2.50",
     "@theme-ui/presets": "^0.2.44",
     "next": "^9.0.2",
     "react": "^16.8.6",
