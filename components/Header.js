@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { useColorMode } from 'theme-ui';
 import { Container, Flex, NavLink, Button } from '@theme-ui/components';

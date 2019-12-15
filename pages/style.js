@@ -1,4 +1,3 @@
-import React from 'react';
 import { Styled } from 'theme-ui';
 import { Container } from '@theme-ui/components';
 import {
