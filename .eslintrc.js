@@ -10,6 +10,7 @@ module.exports = {
     // Next.js doesn't require react to be in scope
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-function-return-type': 0,
+    '@typescript-eslint/no-var-requires': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
   },
