@@ -13,8 +13,8 @@ export default function Header() {
         <Link href="/" passHref>
           <NavLink p={2}>Home</NavLink>
         </Link>
-        <Link href="/hello" passHref>
-          <NavLink p={2}>Hello</NavLink>
+        <Link href="/style" passHref>
+          <NavLink p={2}>Style Guide</NavLink>
         </Link>
         <Button
           ml="auto"
