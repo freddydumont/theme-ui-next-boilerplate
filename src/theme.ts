@@ -25,4 +25,9 @@ export default {
       cursor: 'pointer',
     },
   },
+  links: {
+    nav: {
+      fontFamily: 'body',
+    },
+  },
 };

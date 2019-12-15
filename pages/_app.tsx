@@ -1,5 +1,6 @@
 import App from 'next/app';
 import { ThemeProvider, Styled, ColorMode } from 'theme-ui';
+import { Container } from '@theme-ui/components';
 
 import Header from '../components/Header';
 import theme from '../src/theme';
@@ -24,7 +25,9 @@ class MyApp extends App {
         <ColorMode />
         <Header />
         <Styled.root>
-          <Component {...pageProps} />
+          <Container>
+            <Component {...pageProps} />
+          </Container>
         </Styled.root>
       </ThemeProvider>
     );
