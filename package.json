@@ -19,6 +19,7 @@
     "@theme-ui/presets": "^0.2.44",
     "@theme-ui/style-guide": "^0.2.49",
     "next": "^9.0.2",
+    "next-nprogress-emotion": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "theme-ui": "^0.2.49"

@@ -4725,6 +4725,13 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
+next-nprogress-emotion@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/next-nprogress-emotion/-/next-nprogress-emotion-1.0.0.tgz#5cc351565a7127d13313a9babed0c4bf54afdded"
+  integrity sha512-cnaVy5rlegpkDpSjkTDYuKtvU5p4cuyRxbt8uEA17j4ddAWnmXonU1kQr9FbsJ0/SvqMDCw0VK0t+WHDFdp56g==
+  dependencies:
+    nprogress "^0.2.0"
+
 next@^9.0.2:
   version "9.1.5"
   resolved "https://registry.yarnpkg.com/next/-/next-9.1.5.tgz#3163e1d36b896a73d6da3c55f3aab1a0f7bb1f26"
@@ -4892,6 +4899,11 @@ normalize-url@1.9.1:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 num2fraction@^1.2.2:
   version "1.2.2"
