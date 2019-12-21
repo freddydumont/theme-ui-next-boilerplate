@@ -22,3 +22,9 @@ import { render, fireEvent } from 'test-utils';
 ```
 
 Make sure you import from `'test-utils'` or your tests may crash if the theme is expected.
+
+### Emotion snapshots
+
+Because ThemeUI uses emotion under the hood, `jest-emotion`'s [snapshot serializer](https://emotion.sh/docs/jest-emotion#snapshot-serializer) is included.
+
+Refer to the emotion's [testing documentation](https://emotion.sh/docs/testing) for more info.

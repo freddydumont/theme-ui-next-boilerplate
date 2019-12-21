@@ -1,6 +1,7 @@
 module.exports = {
   // add test-utils direct import
   moduleDirectories: ['node_modules', 'utils'],
-  // add jest-dom's extra matchers
-  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
+  // add jest-dom and emotion's extra matchers
+  setupFilesAfterEnv: ['<rootDir>/test/jest.setup.js'],
+  snapshotSerializers: ['jest-emotion'],
 };

@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: container;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-family: system-ui,sans-serif;
+  padding: 8px;
+}
+
+.emotion-0:hover,
+.emotion-0:focus,
+.emotion-0.active {
+  color: var(--theme-ui-colors-primary,hsl(10,80%,50%));
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary,hsl(10,80%,50%));
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+<div>
+  <header
+    class="emotion-4"
+  >
+    <nav
+      class="emotion-3"
+    >
+      <a
+        class="emotion-0"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="emotion-0"
+        href="/style"
+      >
+        Style Guide
+      </a>
+      <button
+        class="emotion-2"
+      >
+        Toggle 
+        Light
+      </button>
+    </nav>
+  </header>
+</div>
+`;

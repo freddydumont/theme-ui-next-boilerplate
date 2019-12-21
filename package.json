@@ -45,6 +45,7 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "1.x",
     "jest": "^24.9.0",
+    "jest-emotion": "^10.0.26",
     "typescript": "^3.7.3"
   }
 }
