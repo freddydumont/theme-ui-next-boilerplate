@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@emotion/core": "^10.0.15",
@@ -25,12 +27,16 @@
     "theme-ui": "^0.2.49"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@types/jest": "^24.0.24",
     "@types/node": "^12.12.17",
     "@types/react": "^16.9.16",
     "@types/theme-ui": "^0.2.6",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
     "eslint": "^6.7.2",
     "eslint-config-react-app": "^5.1.0",
     "eslint-plugin-flowtype": "3.x",
@@ -38,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "1.x",
+    "jest": "^24.9.0",
     "typescript": "^3.7.3"
   }
 }
