@@ -44,8 +44,25 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "1.x",
+    "husky": "^3.1.0",
     "jest": "^24.9.0",
     "jest-emotion": "^10.0.26",
+    "lint-staged": ">=8",
+    "prettier": "^1.19.1",
     "typescript": "^3.7.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --max-warnings 0"
+    ],
+    "*.{ts,tsx,js,css,json,md,mdx}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
