@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "next-theme-ui-example",
-  "version": "0.2.49",
+  "name": "theme-ui-next-boilerplate",
+  "version": "1.0.0",
   "main": "index.js",
-  "author": "Brent Jackson <jxnblk@gmail.com>",
+  "author": "Frederick Morin (https://freddydumont.com)",
   "license": "MIT",
   "scripts": {
     "dev": "next",
