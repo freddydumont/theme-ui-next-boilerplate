@@ -1,14 +1,9 @@
 import { render } from '@testing-library/react';
-import { ThemeProvider, ColorMode } from 'theme-ui';
+import { ThemeProvider } from 'theme-ui';
 import theme from '../src/theme';
 
 const AllTheProviders = ({ children }) => {
-  return (
-    <ThemeProvider theme={theme}>
-      <ColorMode />
-      {children}
-    </ThemeProvider>
-  );
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
 };
 
 const customRender = (ui, options) =>

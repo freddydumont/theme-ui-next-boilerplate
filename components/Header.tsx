@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { useColorMode } from 'theme-ui';
-import { Container, Flex, NavLink, Button } from '@theme-ui/components';
+import { useColorMode, Container, Flex, NavLink, Button } from 'theme-ui';
 
 export default function Header() {
   const [colorMode, setColorMode] = useColorMode();
