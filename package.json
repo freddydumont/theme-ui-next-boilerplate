@@ -20,10 +20,10 @@
     "@theme-ui/components": "^0.2.50",
     "@theme-ui/presets": "^0.2.44",
     "@theme-ui/style-guide": "^0.2.49",
-    "next": "^9.0.2",
-    "next-nprogress-emotion": "^1.0.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "next": "^9.3.6",
+    "next-nprogress-emotion": "^1.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "theme-ui": "^0.2.49"
   },
   "devDependencies": {
@@ -31,7 +31,7 @@
     "@testing-library/react": "^9.4.0",
     "@types/jest": "^24.0.24",
     "@types/node": "^12.12.17",
-    "@types/react": "^16.9.16",
+    "@types/react": "^16.9.34",
     "@types/theme-ui": "^0.2.6",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
