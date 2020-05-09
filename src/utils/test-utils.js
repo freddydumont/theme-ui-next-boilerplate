@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import { ThemeProvider } from 'theme-ui';
-import theme from '../src/theme';
+import theme from '../theme';
 
 const AllTheProviders = ({ children }) => {
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>;

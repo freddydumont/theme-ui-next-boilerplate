@@ -3,7 +3,7 @@ import { ThemeProvider, Container } from 'theme-ui';
 import NProgress from 'next-nprogress-emotion';
 
 import Header from '../components/Header';
-import theme from '../src/theme';
+import theme from '../theme';
 
 class MyApp extends App {
   render() {
