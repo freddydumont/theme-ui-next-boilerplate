@@ -1646,10 +1646,10 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.1.tgz#c1e8480844dfaeecde8b827d0e4bbf8793274659"
   integrity sha512-A3TBBjg5iVo8S4TTG0VrW8G9YNLob4+M6rALKjY8Sxr9zPExWQ7iTPUSvJVE7YhF9E08EQMubx1vRal3jtpJ9Q==
 
-"@next/mdx@^9.3.6":
-  version "9.3.6"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.3.6.tgz#a617ff3c70124bacfedb7c4092a8d2ce8595aa6f"
-  integrity sha512-gF+Op4wMow4HdN9KFLDgAoz/zEn34vpa5fgbMW9/n67FfBJ9OqZFCM43aKrR2EsI3ehDvkKNgksiSm4vrPt8zg==
+"@next/mdx@^9.4.0":
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.4.0.tgz#378e620807a7e27e732ea607f7afa453fbfaaafb"
+  integrity sha512-CyYHS0Ri515J3qZwjQ7Qgfltst7QSAVKzwK3v9p1wvP+G0UFk3DNwn/PtUk6zRaSJ6mSw/y8d8AnYjSgP0mw5w==
 
 "@next/react-refresh-utils@9.3.6":
   version "9.3.6"
