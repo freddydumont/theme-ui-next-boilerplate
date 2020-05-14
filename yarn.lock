@@ -1192,18 +1192,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
   integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
 
-"@emotion/serialize@^0.11.12", "@emotion/serialize@^0.11.14":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-0.11.14.tgz#56a6d8d04d837cc5b0126788b2134c51353c6488"
-  integrity sha512-6hTsySIuQTbDbv00AnUO6O6Xafdwo5GswRlMZ5hHqiFx+4pZ7uGWXUQFW46Kc2taGhP89uXMXn/lWQkdyTosPA==
-  dependencies:
-    "@emotion/hash" "0.7.3"
-    "@emotion/memoize" "0.7.3"
-    "@emotion/unitless" "0.7.4"
-    "@emotion/utils" "0.11.2"
-    csstype "^2.5.7"
-
-"@emotion/serialize@^0.11.15":
+"@emotion/serialize@^0.11.12", "@emotion/serialize@^0.11.14", "@emotion/serialize@^0.11.15":
   version "0.11.16"
   resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-0.11.16.tgz#dee05f9e96ad2fb25a5206b6d759b2d1ed3379ad"
   integrity sha512-G3J4o8by0VRrO+PFeSc3js2myYNOXVJ3Ya+RGVxnshRYgsvErfAOglKAiy1Eo1vhzxqtUvjCyS5gtewzkmvSSg==
@@ -1241,11 +1230,6 @@
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/@emotion/stylis/-/stylis-0.8.4.tgz#6c51afdf1dd0d73666ba09d2eb6c25c220d6fe4c"
   integrity sha512-TLmkCVm8f8gH0oLv+HWKiu7e8xmBIaokhxcEKPh1m8pXiV/akCiq50FvYgOwY42rjejck8nsdQxZlXZ7pmyBUQ==
-
-"@emotion/unitless@0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
-  integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
 "@emotion/unitless@0.7.5":
   version "0.7.5"
@@ -2026,10 +2010,10 @@
     "@types/testing-library__dom" "*"
     pretty-format "^25.1.0"
 
-"@types/theme-ui@*", "@types/theme-ui@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.1.tgz#45e7064b53de401fc405a1b7a6405b2dea51ffde"
-  integrity sha512-pi6jYwiZkXLvghmgJKiKDyjt4yCqMngpJFZ9T1heaff1ZBp1cb74EQtqFRMkANndtO3BS82HWkWR0EYWZPuWmg==
+"@types/theme-ui@*", "@types/theme-ui@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.2.tgz#f8e49734398725f72195866cdc2462a07743bf38"
+  integrity sha512-xAHYIyIsInPbcRf2YqCnioTmTsVjX+5fClO6NqwNORn0j9deGuSMp2gI8lPjm5b0eZwxM5ugExLbz01lxjjVqw==
   dependencies:
     "@emotion/serialize" "^0.11.15"
     "@types/react" "*"
