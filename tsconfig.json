@@ -19,6 +19,6 @@
       "test-utils": ["test/test-utils"]
     }
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "cypress", "coverage", ".github", "test"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
