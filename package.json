@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.1",
-    "@next/mdx": "^9.4.0",
+    "@next/mdx": "^9.4.1",
     "@theme-ui/presets": "^0.4.0-alpha.1",
     "@theme-ui/style-guide": "^0.4.0-alpha.1",
     "next": "^9.4.0",
