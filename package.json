@@ -36,7 +36,7 @@
     "@types/testing-library__cypress": "^5.0.5",
     "@types/theme-ui": "^0.3.2",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
+    "@typescript-eslint/parser": "^2.34.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.0.1",
     "cypress": "^4.5.0",
