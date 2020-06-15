@@ -2104,10 +2104,10 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/theme-ui@*", "@types/theme-ui@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.3.tgz#39d990ba52ea88b0a5b1b2a511f1ac5fa7564198"
-  integrity sha512-gJ02ZWL6hEap81RLa+ld5cuP3jRN5G7itSg7nVrBmmu+Dh1W0xRA6LH5g+dDCDsIaRFYBtGr70FtFdPT72Otrw==
+"@types/theme-ui@*", "@types/theme-ui@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.4.tgz#e2b313017243db7432f2ad2265b5b4214aa78645"
+  integrity sha512-68V4OR5fcS/IvAYJFilMa1g2SXC8/2D7+0jKp46PJO9OUz5PO/+l0zYAFVRh4IrVWfzXpEzjRp5H2Z8QPGVxOg==
   dependencies:
     "@emotion/serialize" "^0.11.15"
     "@types/react" "*"
