@@ -2132,17 +2132,17 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/theme-ui@*", "@types/theme-ui@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.5.tgz#5cacd59e6480ab3cc4ac5fe07bc29d6c65b27eb8"
-  integrity sha512-BdsT396+tkn13HFfDQqzjFOh25tfbLXF/F1c9JlrV9lnqV0V7IhFSVODbtmGA27CkBBF/u/DcB3S8Yjt3ZnSXg==
+"@types/theme-ui@*", "@types/theme-ui@^0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.6.tgz#e7d25ef4fdaf6d3e69ef483858210df99c35c1fa"
+  integrity sha512-VAw3NA1Ye0dMfWM4/nfDPGTL5dFuPC1FHpDnLleEh6jRmqp2OliaJIeZnffmDVnGmb9iIvCwdaLDYAmltrnypA==
   dependencies:
     "@emotion/serialize" "^0.11.15"
     "@types/react" "*"
     "@types/styled-system" "*"
     "@types/styled-system__css" "*"
     "@types/theme-ui__components" "*"
-    csstype "^2.6.6"
+    csstype "^3.0.2"
 
 "@types/theme-ui__components@*", "@types/theme-ui__components@^0.2.3":
   version "0.2.4"
