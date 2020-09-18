@@ -15,7 +15,7 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.17",
+    "@mdx-js/loader": "^1.6.18",
     "@next/mdx": "^9.5.3",
     "@theme-ui/presets": "^0.4.0-alpha.1",
     "@theme-ui/style-guide": "^0.4.0-alpha.1",
