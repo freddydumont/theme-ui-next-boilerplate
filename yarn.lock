@@ -2083,10 +2083,10 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/theme-ui@*", "@types/theme-ui@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.6.tgz#e7d25ef4fdaf6d3e69ef483858210df99c35c1fa"
-  integrity sha512-VAw3NA1Ye0dMfWM4/nfDPGTL5dFuPC1FHpDnLleEh6jRmqp2OliaJIeZnffmDVnGmb9iIvCwdaLDYAmltrnypA==
+"@types/theme-ui@*", "@types/theme-ui@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.3.7.tgz#67346df27d02045c7f06f9684c88e3a5622a456d"
+  integrity sha512-4hzDlDhlFYmOdXBLZTbO4N2hWfuGo1N77AcIMaSyDGEyFbdZSpelMLTkEtNzYT8yQWIl3x0WITiBzjqkfc6dUg==
   dependencies:
     "@emotion/serialize" "^0.11.15"
     "@types/react" "*"
