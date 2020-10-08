@@ -1541,10 +1541,10 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.18.tgz#c7563bf72cb4520b8b7100b64006a64be717e936"
   integrity sha512-axMe+NoLF55OlXPbhRn4GNCHcL1f5W3V3c0dWzg05S9JXm3Ecpxzxaht3g3vTP0dcqBL/yh/xCvzK0ZpO54Eug==
 
-"@next/mdx@^9.5.3":
-  version "9.5.3"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.3.tgz#246fd65b2f0854894d7d80b27a7af1708ccceb49"
-  integrity sha512-r4C5bFG6bQ1WfCR8re/GUFgw2CmpMByOILMYAqKhrHE/Ota2mloxdqLQOR/fBMy3f3wvEMFvl7YdEtQPPA9oLg==
+"@next/mdx@^9.5.4":
+  version "9.5.4"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-9.5.4.tgz#067102d1e84917b0e3a89ea9797d09d774d8b7fa"
+  integrity sha512-Fu8W3FeBomD0xoHBB34/w+N3Tv6sC99lSrBcQCl2wlstOcuuleTm3QqDhLWF0lnQjkIRcMSsDREBTVEn7dtTSQ==
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
