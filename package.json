@@ -17,7 +17,7 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.21",
     "@next/mdx": "^9.5.5",
-    "@theme-ui/presets": "^0.4.0-alpha.1",
+    "@theme-ui/presets": "^0.4.0-rc.11",
     "@theme-ui/style-guide": "^0.4.0-alpha.1",
     "next": "^9.5.5",
     "next-nprogress-emotion": "^1.0.1",
