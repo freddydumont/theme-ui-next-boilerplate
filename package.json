@@ -18,7 +18,7 @@
     "@mdx-js/loader": "^1.6.21",
     "@next/mdx": "^9.5.5",
     "@theme-ui/presets": "^0.4.0-alpha.1",
-    "@theme-ui/style-guide": "^0.4.0-alpha.1",
+    "@theme-ui/style-guide": "^0.4.0-rc.12",
     "next": "^9.5.5",
     "next-nprogress-emotion": "^1.0.1",
     "react": "^16.14.0",
