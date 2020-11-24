@@ -28,7 +28,7 @@ Make sure you import from `'test-utils'` or your tests may crash if the theme is
 
 ### Emotion snapshots
 
-Because ThemeUI uses emotion under the hood, `jest-emotion`'s [snapshot serializer](https://emotion.sh/docs/jest-emotion#snapshot-serializer) is included.
+Because ThemeUI uses emotion under the hood, `@emotion/jest`'s [snapshot serializer](https://emotion.sh/docs/testing) is included.
 
 Refer to the emotion's [testing documentation](https://emotion.sh/docs/testing) for more info.
 
@@ -37,4 +37,3 @@ Refer to the emotion's [testing documentation](https://emotion.sh/docs/testing) 
 See [the example test](https://github.com/freddydumont/theme-ui-next-boilerplate/blob/master/cypress/integration/navigation_spec.ts) and Cypress's documentation to get started.
 
 By default the tests are running in CI with GitHub actions.
-

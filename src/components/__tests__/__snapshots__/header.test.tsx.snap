@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header should match snapshot 1`] = `
-.emotion-4 {
+.emotion-0 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -18,7 +18,7 @@ exports[`Header should match snapshot 1`] = `
   padding-right: 32px;
 }
 
-.emotion-3 {
+.emotion-1 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -28,7 +28,7 @@ exports[`Header should match snapshot 1`] = `
   display: flex;
 }
 
-.emotion-0 {
+.emotion-2 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -41,13 +41,13 @@ exports[`Header should match snapshot 1`] = `
   padding: 8px;
 }
 
-.emotion-0:hover,
-.emotion-0:focus,
-.emotion-0.active {
+.emotion-2:hover,
+.emotion-2:focus,
+.emotion-2.active {
   color: var(--theme-ui-colors-primary,hsl(10,80%,50%));
 }
 
-.emotion-2 {
+.emotion-4 {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
@@ -74,25 +74,25 @@ exports[`Header should match snapshot 1`] = `
 
 <div>
   <header
-    class="emotion-4"
+    class="emotion-0"
   >
     <nav
-      class="emotion-3"
+      class="emotion-1"
     >
       <a
-        class="emotion-0"
+        class="emotion-2"
         href="/"
       >
         Home
       </a>
       <a
-        class="emotion-0"
+        class="emotion-2"
         href="/style"
       >
         Style Guide
       </a>
       <button
-        class="emotion-2"
+        class="emotion-4"
       >
         Toggle 
         Light
