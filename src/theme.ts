@@ -1,7 +1,8 @@
 import { swiss, deep } from '@theme-ui/presets';
+import { Theme } from 'theme-ui';
 
-export default {
-  ...swiss,
+const theme: Theme = {
+  ...(swiss as Theme),
   useCustomProperties: true,
   useColorSchemeMediaQuery: true,
   colors: {
@@ -31,3 +32,5 @@ export default {
     },
   },
 };
+
+export default theme;

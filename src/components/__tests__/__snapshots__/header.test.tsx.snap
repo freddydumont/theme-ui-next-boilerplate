@@ -44,7 +44,7 @@ exports[`Header should match snapshot 1`] = `
 .emotion-2:hover,
 .emotion-2:focus,
 .emotion-2.active {
-  color: var(--theme-ui-colors-primary,hsl(10,80%,50%));
+  color: var(--theme-ui-colors-primary, hsl(10, 80%, 50%));
 }
 
 .emotion-4 {
@@ -53,6 +53,7 @@ exports[`Header should match snapshot 1`] = `
   min-width: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
+  -ms-appearance: none;
   appearance: none;
   display: inline-block;
   text-align: center;
@@ -65,7 +66,7 @@ exports[`Header should match snapshot 1`] = `
   padding-top: 8px;
   padding-bottom: 8px;
   color: white;
-  background-color: var(--theme-ui-colors-primary,hsl(10,80%,50%));
+  background-color: var(--theme-ui-colors-primary, hsl(10, 80%, 50%));
   border: 0;
   border-radius: 4px;
   cursor: pointer;
