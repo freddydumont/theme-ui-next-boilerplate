@@ -1,11 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 import { Styled } from 'theme-ui';
-import {
-  TypeScale,
-  TypeStyle,
-  ColorPalette,
-  ColorSwatch,
-} from '@theme-ui/style-guide';
+import { TypeScale, TypeStyle, ColorPalette } from '@theme-ui/style-guide';
 
 const StyleGuidePage = () => (
   <>
@@ -13,7 +8,6 @@ const StyleGuidePage = () => (
     <Styled.h2>Color Palette</Styled.h2>
     <ColorPalette />
     <Styled.h2>Color Swatch</Styled.h2>
-    <ColorSwatch />
     <Styled.h2>Type Scale</Styled.h2>
     <TypeScale />
     <Styled.h2>Heading Style</Styled.h2>
