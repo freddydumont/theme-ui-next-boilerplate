@@ -6823,10 +6823,10 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-nprogress-emotion@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/next-nprogress-emotion/-/next-nprogress-emotion-1.0.1.tgz#ceff405cfd7ab29b0a4de99bc9a7f1eceb5c873a"
-  integrity sha512-0DtAaIpW9QpZLd7fkv2EEnNCMgyFaxFVEjXc9sGORtyaaaB+iZFu53WubLxnVEV9Th+Hh/OUfaSNy2O2keIeNQ==
+next-nprogress-emotion@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/next-nprogress-emotion/-/next-nprogress-emotion-2.0.0.tgz#bf7407be67abe45f5d03ab2ed8448f28039024ab"
+  integrity sha512-SZpQ1BiLM6Piillmdr5lyhmcOpzRTvJ5JNOHscfNDAdDCxPCRLcK1ASzTq8oOF/m81uE8Qnqh+KlA5ufDMyJXg==
   dependencies:
     nprogress "^0.2.0"
 
