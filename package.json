@@ -23,7 +23,7 @@
     "next-nprogress-emotion": "^2.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "theme-ui": "^0.5.0-alpha.0"
+    "theme-ui": "^0.5.0-alpha.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
