@@ -1302,6 +1302,14 @@
     "@emotion/react" "^11.1.1"
     csstype "^3.0.5"
 
+"@theme-ui/css@0.6.0-alpha.1":
+  version "0.6.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.0-alpha.1.tgz#461b0789f1b5a4c13503ee0350c3ff3bff11e766"
+  integrity sha512-jfT2PUD3K7I4BoQVQu7e0LgFuGp9X32s/daAIkGBlnH8hAI/KeL311BRnnK26YVFCv/4kvcYHmyeC/IjiO/46Q==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    csstype "^3.0.5"
+
 "@theme-ui/mdx@0.5.0-alpha.1":
   version "0.5.0-alpha.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.5.0-alpha.1.tgz#a9bbed702b260b3458bf56f30cf601cd839d850b"
@@ -1383,6 +1391,13 @@
   dependencies:
     "@theme-ui/css" "0.5.0-alpha.1"
 
+"@theme-ui/preset-sketchy@0.6.0-alpha.1":
+  version "0.6.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-sketchy/-/preset-sketchy-0.6.0-alpha.1.tgz#af72ec94417175b13357d98b8f72057c2b5af73b"
+  integrity sha512-KlGNlzeXHEYruLwtJboEIJUbtPTwU7NH5frhgE4xQfoiSJmSC8JgzwgHUD+l9UJMA3tmab7z6bWDAd8sY+TFWw==
+  dependencies:
+    "@theme-ui/css" "0.6.0-alpha.1"
+
 "@theme-ui/preset-swiss@0.5.0-alpha.1":
   version "0.5.0-alpha.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.5.0-alpha.1.tgz#17a96b45f58e8f9efb0dd7a339ca1755beb1e877"
@@ -1403,7 +1418,7 @@
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-tosh/-/preset-tosh-0.5.0-alpha.1.tgz#52153577d20b7300e62e04a23189ec5c8069c931"
   integrity sha512-oy6w/McP/MuNm1zEdKJk1vPyP7CmtIosmcKBsFyhVl0VoYjhoW21pqAJjm2tbtRrbmYLT1qYT8zpERlMtNJehQ==
 
-"@theme-ui/presets@0.5.0-alpha.1", "@theme-ui/presets@^0.5.0-alpha.0":
+"@theme-ui/presets@0.5.0-alpha.1":
   version "0.5.0-alpha.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.5.0-alpha.1.tgz#4122fd11b5b4d7edc3240c088615efe283d5b52f"
   integrity sha512-YsD145MfsVBz3aOGdbDlVG6ivbTfHo/Q3xGcmLXGy3Sjbh+u3fnXWjrpFMGk0QTcO9NeajqqN5uqjS0fH0Q3FA==
@@ -1418,6 +1433,26 @@
     "@theme-ui/preset-polaris" "0.5.0-alpha.1"
     "@theme-ui/preset-roboto" "0.5.0-alpha.1"
     "@theme-ui/preset-sketchy" "0.5.0-alpha.1"
+    "@theme-ui/preset-swiss" "0.5.0-alpha.1"
+    "@theme-ui/preset-system" "0.5.0-alpha.1"
+    "@theme-ui/preset-tailwind" "0.5.0-alpha.1"
+    "@theme-ui/preset-tosh" "0.5.0-alpha.1"
+
+"@theme-ui/presets@^0.6.0-alpha.1":
+  version "0.6.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.6.0-alpha.1.tgz#ad960c3ce7673b43a1e7a5e38918f25ee8d78bf1"
+  integrity sha512-uxfKkTEFcTCdrsmkmmGZa15RjiISPofzvntfmLu0EXxEsOXMB6JP6CqybIkjVJhP7oK2aBNEnXPu0u3T5MO6mg==
+  dependencies:
+    "@theme-ui/preset-base" "0.5.0-alpha.1"
+    "@theme-ui/preset-bootstrap" "0.5.0-alpha.1"
+    "@theme-ui/preset-bulma" "0.5.0-alpha.1"
+    "@theme-ui/preset-dark" "0.5.0-alpha.1"
+    "@theme-ui/preset-deep" "0.5.0-alpha.1"
+    "@theme-ui/preset-funk" "0.5.0-alpha.1"
+    "@theme-ui/preset-future" "0.5.0-alpha.1"
+    "@theme-ui/preset-polaris" "0.5.0-alpha.1"
+    "@theme-ui/preset-roboto" "0.5.0-alpha.1"
+    "@theme-ui/preset-sketchy" "0.6.0-alpha.1"
     "@theme-ui/preset-swiss" "0.5.0-alpha.1"
     "@theme-ui/preset-system" "0.5.0-alpha.1"
     "@theme-ui/preset-tailwind" "0.5.0-alpha.1"
