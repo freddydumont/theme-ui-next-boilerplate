@@ -1,24 +1,24 @@
 /* eslint-disable react/jsx-pascal-case */
-import { Styled } from 'theme-ui';
+import { Themed } from 'theme-ui';
 import { TypeScale, TypeStyle, ColorPalette } from '@theme-ui/style-guide';
 
 const StyleGuidePage = () => (
   <>
-    <Styled.h1>Style Guide</Styled.h1>
-    <Styled.h2>Color Palette</Styled.h2>
+    <Themed.h1>Style Guide</Themed.h1>
+    <Themed.h2>Color Palette</Themed.h2>
     <ColorPalette />
-    <Styled.h2>Color Swatch</Styled.h2>
-    <Styled.h2>Type Scale</Styled.h2>
+    <Themed.h2>Color Swatch</Themed.h2>
+    <Themed.h2>Type Scale</Themed.h2>
     <TypeScale />
-    <Styled.h2>Heading Style</Styled.h2>
+    <Themed.h2>Heading Style</Themed.h2>
     <TypeStyle fontFamily="heading" fontWeight="heading" lineHeight="heading">
       The quick brown fox jumps over the lazy dog.
     </TypeStyle>
-    <Styled.h2>Body Style</Styled.h2>
+    <Themed.h2>Body Style</Themed.h2>
     <TypeStyle fontFamily="body" fontWeight="body" lineHeight="body">
       The quick brown fox jumps over the lazy dog.
     </TypeStyle>
-    <Styled.h2>Monospace Style</Styled.h2>
+    <Themed.h2>Monospace Style</Themed.h2>
     <TypeStyle
       fontFamily="monospace"
       fontWeight="monospace"
