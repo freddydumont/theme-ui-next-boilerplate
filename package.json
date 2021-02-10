@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
-    "@emotion/jest": "^11.1.0",
+    "@emotion/jest": "^11.2.0",
     "@testing-library/cypress": "^7.0.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
