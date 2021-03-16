@@ -1219,6 +1219,14 @@
     "@emotion/react" "^11.1.1"
     csstype "^3.0.5"
 
+"@theme-ui/css@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#eee5e51f1846283023db96a92d72c08de56b38c1"
+  integrity sha512-QHlhJSrw5TvclhzABf3XvmiMpkr8+V9P3IgwgbfOhBgBzMApy0lovg62mIpKSlTeoc+KIQvXcoRwAE7UmvVD/g==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    csstype "^3.0.5"
+
 "@theme-ui/mdx@0.6.0-alpha.6":
   version "0.6.0-alpha.6"
   resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.6.0-alpha.6.tgz#3593e15ee9136b3fbaba01534ecd14c5b8d58f4b"
@@ -1238,114 +1246,114 @@
     "@emotion/react" "^11.1.1"
     "@theme-ui/css" "0.6.0-alpha.6"
 
-"@theme-ui/preset-base@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.6.0-alpha.4.tgz#bcd5aadaeddf028da0dadc00227ec205fe2fad7c"
-  integrity sha512-H+OYvjx5MdOcAk1+qK50LbHmelO4GZ8Jpx4mcrVabgcBesCVUFXj5dCp7wkUDyyWWIDCeeTcdKR2cNCjsOy3tA==
+"@theme-ui/preset-base@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#ea368ac31b826441afd13983605ab0e99e1d9567"
+  integrity sha512-DVVurMh0kfjU1zC6jN5CWm8kyjE++anZ4GKLKXEKac99D2xNid51yKqjrneYQqfuKoTHyxujQeXB5cxrBKlwxA==
 
-"@theme-ui/preset-bootstrap@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-bootstrap/-/preset-bootstrap-0.6.0-alpha.4.tgz#aae46985a53e0f8dc75d0c704b0e63d5e8c54682"
-  integrity sha512-PZPpzaRMIom+UNm4WpoL8ZuZDbnADT4s1ocpwriR9H7P62dluSjNrz+oIZ/IP0BsxNqcrLDuA6tDRXv7Ob0KCA==
+"@theme-ui/preset-bootstrap@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-bootstrap/-/preset-bootstrap-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#4ebeb4133d082f493c614c00fa3e8ff999e7770f"
+  integrity sha512-gON+vU+fA9DFrfchIsbbZGD0Bvt1x2+OHAzu17PcVtLnPeb5XGizePWjJDM+QVMWxR8Rsw37sWAFBm0m246krQ==
 
-"@theme-ui/preset-bulma@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-bulma/-/preset-bulma-0.6.0-alpha.4.tgz#5f7c9a4a4d6a17af5eedd844cbc61fa563b47274"
-  integrity sha512-BYRaocIHiBoTf9iEa2eewtWk06yZqYwoG/4ZfnYcIhXbh2TFkSObMogQVMUK1K8v6yGhjNXDJCJTPMiKqNb7Sg==
+"@theme-ui/preset-bulma@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-bulma/-/preset-bulma-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#3ae07d58dfc9aad0028f88bc56cb8074866b1aaf"
+  integrity sha512-UYhCWUCaUR2EAfA+6csLmMRloWcASlR3IWbswiKaxOa7q6zxZsNAiboDmCulfZpulfAEeNQnmhVRSL3VdTnwoA==
   dependencies:
-    "@theme-ui/preset-base" "0.6.0-alpha.4"
+    "@theme-ui/preset-base" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/preset-dark@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-dark/-/preset-dark-0.6.0-alpha.4.tgz#21f65a809dae11ebd9c10d80fa0f408920446ebc"
-  integrity sha512-EH6S5cWIU+RUwsv1cdSEWgWICrNap/aCcelL/VCn9ydcwNnYf7H4geUJkb+WKOH8faeucHAwlpDmDFuvq2TMrA==
+"@theme-ui/preset-dark@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-dark/-/preset-dark-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#ae964d5a9cbe6a1f8b7b7d85310590fb9c70a321"
+  integrity sha512-bYB5Akw5It0+q5uGG4qxp6AzpmXcQu8yfiG8k/3PTdZ2DPIzgnydrXUMebR6bytJtftzm9G/TJLALN35QB2rqQ==
 
-"@theme-ui/preset-deep@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.6.0-alpha.4.tgz#f35ef17d2181c2e9de76a8720bf523f2365cba2f"
-  integrity sha512-uJMbbANOntvwfz+ToqvT5PBdyxjrO52jk5q5fSTsKYxt1pxzfL1e2mH5cp3cXtQw1JMIgfToLcy+nshFSKYuMQ==
+"@theme-ui/preset-deep@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#b7baab330a20f5af1e4fa11f6049b5b0afe11385"
+  integrity sha512-WdVw7eIsXPFtA4pZVS2BvHuyYLfnZOwOohh5fV7C0ui/0VxnZQIZmtz5LsYlWVU7Cv1YdqWiely78vjQCNMKTQ==
 
-"@theme-ui/preset-funk@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-funk/-/preset-funk-0.6.0-alpha.4.tgz#5505c410791a312d6422186ce9ba4de0605532ff"
-  integrity sha512-JAsy52hEQBGdHk9cB4RSL/JWJkvMjHOPo2v2dGq++gyFpDkZHsJWGwm3gO3goRV4iI8q9sw0nNuUQYE44wiJcg==
+"@theme-ui/preset-funk@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-funk/-/preset-funk-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#aea1c2c0161f125ca5bdddd7d746a52ee8cc3a23"
+  integrity sha512-hflzmheLblj4rzbK3eYt0y8Eq+6q8a0HljVrA1am1WknpqcWCa336gcFskk92gxFO97XkAaRTEP5HgBMtN+msA==
   dependencies:
-    "@theme-ui/preset-base" "0.6.0-alpha.4"
+    "@theme-ui/preset-base" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/preset-future@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-future/-/preset-future-0.6.0-alpha.4.tgz#7911f45d9c08339171e2b348591bc7b1306c6dd9"
-  integrity sha512-C8CuVZPY4UKlNAdE6IFP+lsJOwvHmTAxyY7TThRQNdma1eupXeIK7VIFlRstqyEQlkZH2+ve/eLg/aBBRN/9kQ==
+"@theme-ui/preset-future@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-future/-/preset-future-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#f8a49f2f9b51838004b2d71e399652b55b5ccfc5"
+  integrity sha512-BiNUZvYE02ouZz9Qc/KvEW94oj4EQE8+BXk6oq9ik+kCGYlYrMIRA9UvAhjUXqm0clpPVJeLBdb8JsRI151kbg==
   dependencies:
-    "@theme-ui/preset-base" "0.6.0-alpha.4"
+    "@theme-ui/preset-base" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/preset-polaris@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-polaris/-/preset-polaris-0.6.0-alpha.4.tgz#c1f529cdcf6b1bee5c672b1beaacdf18e13e71a5"
-  integrity sha512-qFOt6gWGUF0cf+V0CwAFv1QL7XU6IUzQyLlfc9EcUdUzemQwXmmIVLrV2MeSdQkU6tO3+ME2C1UGCHHq/chVsA==
+"@theme-ui/preset-polaris@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-polaris/-/preset-polaris-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#235ed6997327b790b0de6552f3787769cae4b19b"
+  integrity sha512-QVBJGZHhHSuvnETigDN4E/hQ7MFDznhaAnqQ76sMtltMWBXhrwjTlc5HKqIE4eY6+s4qBEDtxPyyvODu8cP4vw==
   dependencies:
-    "@theme-ui/preset-base" "0.6.0-alpha.4"
+    "@theme-ui/preset-base" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/preset-roboto@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-roboto/-/preset-roboto-0.6.0-alpha.4.tgz#437fc95df5cba0c59d6095f3d1f3bbe630a885ce"
-  integrity sha512-iKzM53WQgfsKUBpKhZiJgM+JQy+ioOVRmJIOkn4AItKrIATy2YD0626jcUT+2yiITsnAT4oXxkkvVG5NysXkng==
+"@theme-ui/preset-roboto@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-roboto/-/preset-roboto-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#5f68acdcddefdde691e854e69358b7043156435d"
+  integrity sha512-KcABx+xiNU5kJUX0nn4CZNS2kjyw4bHxjJj+2revIr49sOC4eGZMtiI3x1Hgs1gsx3eE3dAaDfEVkWPcPxH08g==
   dependencies:
-    "@theme-ui/preset-base" "0.6.0-alpha.4"
+    "@theme-ui/preset-base" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/preset-sketchy@0.6.0-alpha.6":
-  version "0.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-sketchy/-/preset-sketchy-0.6.0-alpha.6.tgz#04fcedd75432c338a9f2061c738725984aedea9d"
-  integrity sha512-5xush3788yr3SyCwldGY/6jBNEpK8540I1c9/W+P3fX3ZVtrg+8MWyxm8/JqvWUskErTXjCzhPlK1iGr5QbrQQ==
+"@theme-ui/preset-sketchy@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-sketchy/-/preset-sketchy-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#6a04c7b7cfc086a872bba092112510cbdd7c6bb1"
+  integrity sha512-Rs6t1K0FFCBijzEfi+ycWaQ7WnU+BpEWRB7geQYYm3AAzcWsVI4WSBmxI93bmsVsnGpNSKPJnrV7Ig9YGIc0cg==
   dependencies:
-    "@theme-ui/css" "0.6.0-alpha.6"
+    "@theme-ui/css" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/preset-swiss@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.6.0-alpha.4.tgz#6e7afda4b2549ad516075131aaa543e50046de08"
-  integrity sha512-FcmCqPdd3vEaQ8t10pwnGUoE9bFEZ8KVeIQUzlDdtPDMvD12ZZP2ptTNDyaqoBwoimWL9Ezh4Ib+tDreovkHIA==
+"@theme-ui/preset-swiss@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#fdc486c99997e7b0f444c8c521af70ced90e14a1"
+  integrity sha512-oI/A+jB1jx54IYDbfMb4SVIXtXZNOLsDE/l7e70S7yOVDGUpQgrGoNJVZ7adKc/4oHsnTyGmhpChperT6gVkiQ==
 
-"@theme-ui/preset-system@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-system/-/preset-system-0.6.0-alpha.4.tgz#c2f5a58faa2c2e2f1aaa46ec75ff002c02fb545f"
-  integrity sha512-ot/pGPn8byPhshlg+PteE76AorlRART2jLnfnmCxWNgwKX1EnHHhUEGwdagb7fqQTDISQmV9XsVDxVPFeEzd5Q==
+"@theme-ui/preset-system@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-system/-/preset-system-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#4998ee68e46a95daaa083eb2ecd52743e0193528"
+  integrity sha512-5Q8VNUYs4Y5iDODyEicwlzBojCJBX3RIqc6UCAON5CYGTg81fVT9jdqffrFvDs9gox2wBNVYJBv8pqjbdeuATA==
 
-"@theme-ui/preset-tailwind@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-tailwind/-/preset-tailwind-0.6.0-alpha.4.tgz#5e8ce180fb7d7472be4f65fe39fd2b9a98c73a76"
-  integrity sha512-nhROKLHTIV8842ZnzpWgiKuuyRN3joNYgnsS1b0FzV+CBkd5c6doOsTi5CIIpYqZ5kNLHS42y18nAvGTgE9abQ==
+"@theme-ui/preset-tailwind@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-tailwind/-/preset-tailwind-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#a7c3ec37810173d62bfea44ee3e183cca9508266"
+  integrity sha512-R07s2Kfa3E7vGw7AUNJSdXcaXkQgxrp030v+PoLMqgIlzH8oe5ys8LkGzJIrqahCBnPrimGpTidDfQ7lY18j5A==
 
-"@theme-ui/preset-tosh@0.6.0-alpha.4":
-  version "0.6.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@theme-ui/preset-tosh/-/preset-tosh-0.6.0-alpha.4.tgz#2f7853e5166fc4208f5a1e700583d4e66cf1a681"
-  integrity sha512-QRUMRkRdQQgOeem0Zybv84465zf4R+VUGRy65QERl15/pLzMcpoBiZoH0e2i+DeDIQ0S9sottwQzGMQkZ0JHdg==
+"@theme-ui/preset-tosh@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-tosh/-/preset-tosh-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#fff9febe4928662a456b0fde60b6e4cb2353941f"
+  integrity sha512-WaDSrjeeKIZqbb2MOeN+m+gLwb4Kap6hretp1c3HvNE0TvhjXFfjGpChliZQ57y6DNKnYyBefIi4rj9Hqa0TkQ==
 
-"@theme-ui/presets@0.6.0-alpha.6", "@theme-ui/presets@^0.6.0-alpha.1":
-  version "0.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.6.0-alpha.6.tgz#26e68c02c9bc3960a3d47b7b6d19e38c48cdaebc"
-  integrity sha512-v9DBQnCBK8MfOdc8AyEH3xS121ALJv+BnrCKHXNLEjNwT6SLRtHumgGENmSJlLaGqnWUpTeW29KyqL9tgGHwrw==
+"@theme-ui/presets@0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0", "@theme-ui/presets@^0.6.0-alpha.1":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#d079140ce534a6061073c6151156ecddc36bddf0"
+  integrity sha512-V6I/TsTDC+PcFQTK95WuW5e+aIuCmmbtCTpSlY0JsrCKLq/Cf1QJMzuNKvAbRRnNN4ZqIaCRY5VcbQhn+nKVJA==
   dependencies:
-    "@theme-ui/preset-base" "0.6.0-alpha.4"
-    "@theme-ui/preset-bootstrap" "0.6.0-alpha.4"
-    "@theme-ui/preset-bulma" "0.6.0-alpha.4"
-    "@theme-ui/preset-dark" "0.6.0-alpha.4"
-    "@theme-ui/preset-deep" "0.6.0-alpha.4"
-    "@theme-ui/preset-funk" "0.6.0-alpha.4"
-    "@theme-ui/preset-future" "0.6.0-alpha.4"
-    "@theme-ui/preset-polaris" "0.6.0-alpha.4"
-    "@theme-ui/preset-roboto" "0.6.0-alpha.4"
-    "@theme-ui/preset-sketchy" "0.6.0-alpha.6"
-    "@theme-ui/preset-swiss" "0.6.0-alpha.4"
-    "@theme-ui/preset-system" "0.6.0-alpha.4"
-    "@theme-ui/preset-tailwind" "0.6.0-alpha.4"
-    "@theme-ui/preset-tosh" "0.6.0-alpha.4"
+    "@theme-ui/preset-base" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-bootstrap" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-bulma" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-dark" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-deep" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-funk" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-future" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-polaris" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-roboto" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-sketchy" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-swiss" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-system" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-tailwind" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+    "@theme-ui/preset-tosh" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
 
-"@theme-ui/style-guide@^0.6.0-alpha.6":
-  version "0.6.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@theme-ui/style-guide/-/style-guide-0.6.0-alpha.6.tgz#c96ae5bd9c3bec3eadcb2e9abde359c668038c13"
-  integrity sha512-htPG6T+qeLYjsth1PNrbZa+1l6Sn9XeqVAOq5NlvrJG7P4yfPU5v1RsaLYVZyt5Pbx1pyJ9SIs3X2Pq5y2+chQ==
+"@theme-ui/style-guide@^0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0":
+  version "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/style-guide/-/style-guide-0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0.tgz#50aa183bee3165abb2ddead8207d0b3acc0a11a7"
+  integrity sha512-ZrozXLBGWIaaHNrqn/v360kKtzuh1oygJRk+5fi0EedylphYIuInbdKrZjd69Bb+rK2eLQsxGEtdqBmhDYYuFg==
   dependencies:
-    "@theme-ui/presets" "0.6.0-alpha.6"
+    "@theme-ui/presets" "0.6.0-canary.1544.5359f8a1e408a4dfeb74a9ae39688270286e534a.0"
     "@types/color" "^3.0.1"
     color "^3.1.2"
     lodash.get "^4.4.2"
