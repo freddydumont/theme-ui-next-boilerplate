@@ -349,10 +349,17 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.12.5", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.9.2":
+"@babel/runtime@7.12.5":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.9.2":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  integrity sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -546,12 +553,12 @@
   dependencies:
     "@emotion/memoize" "^0.7.4"
 
-"@emotion/jest@^11.2.1":
-  version "11.2.1"
-  resolved "https://registry.yarnpkg.com/@emotion/jest/-/jest-11.2.1.tgz#21fe72b18465cad37c89b5b9395259b086bd2f30"
-  integrity sha512-uLlPahLgyBRjAoYoPNmq+PUit+7Dqdz4YqsF+Ol4/vMRfjnMuXzpzgIaFFsL5npMDGPeIhHeJTM4O+9r10t3vw==
+"@emotion/jest@^11.3.0":
+  version "11.3.0"
+  resolved "https://registry.yarnpkg.com/@emotion/jest/-/jest-11.3.0.tgz#43bed6dcb47c8691b346cee231861ebc8f9b0016"
+  integrity sha512-LZqYc3yerhic1IvAcEwBLRs1DsUt3oY7Oz6n+e+HU32iYOK/vpfzlhgmQURE94BHfv6eCOj6DV38f3jSnIkBkQ==
   dependencies:
-    "@babel/runtime" "^7.7.2"
+    "@babel/runtime" "^7.13.10"
     "@emotion/css-prettifier" "^1.0.0"
     chalk "^4.1.0"
     specificity "^0.4.1"
