@@ -22,3 +22,12 @@ jobs:
           build: yarn run build
           start: yarn start
           wait-on: 'http://localhost:3000'
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: artifacts-${{ github.run_id }}
+          path: |
+            ${{ github.workspace }}/cypress/screenshots
+            ${{ github.workspace }}/cypress/videos
