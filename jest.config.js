@@ -6,4 +6,6 @@ module.exports = {
   snapshotSerializers: ['@emotion/jest/serializer'],
   // coverage
   collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx,js,jsx}'],
+  // ignore cypress folder
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/cypress/'],
 };
