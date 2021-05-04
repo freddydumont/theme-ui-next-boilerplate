@@ -3,8 +3,6 @@ import { Theme } from 'theme-ui';
 
 const theme: Theme = {
   ...(swiss as Theme),
-  useCustomProperties: true,
-  useColorSchemeMediaQuery: true,
   colors: {
     ...swiss.colors,
     modes: {
