@@ -1484,13 +1484,6 @@
   dependencies:
     "@types/jest" "*"
 
-"@types/theme-ui@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@types/theme-ui/-/theme-ui-0.6.0.tgz#9e3291d9cb6620a1a885c47a882da0a5096fb32e"
-  integrity sha512-5ILl2YLBv+pdrEKiFSeAGJJs/QqCl/ZdUTUWHsLc0B+Kw+/rWK7CA6W8+ryANm6iF3Y5VV3dUvWnA46qFF67vw==
-  dependencies:
-    theme-ui "*"
-
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2", "@types/unist@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
@@ -7798,7 +7791,7 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-theme-ui@*, theme-ui@^0.8.0:
+theme-ui@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.8.0.tgz#916a88ff59992e3525160f7535b3aebd0a2bc8e7"
   integrity sha512-6AjjtzkVuKStzwoUitkRpJDmJZZHcfmkPWgH6kBGpanTei05Kx0bLfKFKyZGMdUbZwQ8p/os5XE2VMOcfjTbqg==
