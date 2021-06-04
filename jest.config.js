@@ -4,6 +4,9 @@ module.exports = {
   // add jest-dom and emotion's extra matchers
   setupFilesAfterEnv: ['<rootDir>/test/jest.setup.js'],
   snapshotSerializers: ['@emotion/jest/serializer'],
+  // jest 27 introduced 'node' as new default `testEnvironment`
+  // this can be set on a per-file basis: https://jestjs.io/docs/configuration#testenvironment-string
+  testEnvironment: 'jsdom',
   // coverage
   collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx,js,jsx}'],
   // ignore cypress folder
