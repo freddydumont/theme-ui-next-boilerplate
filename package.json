@@ -39,7 +39,7 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.0.6",
     "cypress": "^7.6.0",
-    "eslint": "^7.29.0",
+    "eslint": "^7.30.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-flowtype": "5.8.0",
