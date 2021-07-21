@@ -8,4 +8,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx,js,jsx}'],
   // ignore cypress folder
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/cypress/'],
+  // jest 27 introduced 'node' as new default `testEnvironment`
+  // this can be set on a per-file basis: https://jestjs.io/docs/configuration#testenvironment-string
+  testEnvironment: 'jsdom',
 };
