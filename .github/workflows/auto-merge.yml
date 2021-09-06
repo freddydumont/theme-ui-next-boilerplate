@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Merge me!
         if: ${{ github.event.workflow_run.conclusion == 'success' }}
-        uses: ridedott/merge-me-action@v2.8.47
+        uses: ridedott/merge-me-action@v2
         with:
           # Depending on branch prodtection rules, a  manually populated
           # `GITHUB_TOKEN_WORKAROUND` secret with permissions to push to
