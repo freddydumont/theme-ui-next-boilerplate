@@ -2,7 +2,7 @@ import { swiss, deep } from '@theme-ui/presets';
 import { Theme } from 'theme-ui';
 
 const theme: Theme = {
-  ...(swiss as Theme),
+  ...swiss,
   colors: {
     ...swiss.colors,
     modes: {

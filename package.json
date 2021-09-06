@@ -9,6 +9,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
@@ -38,19 +39,11 @@
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.10",
     "@types/react": "^17.0.20",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
-    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.1.0",
     "cypress": "^8.3.1",
     "eslint": "^7.32.0",
-    "eslint-config-react-app": "^6.0.0",
+    "eslint-config-next": "11.1.2",
     "eslint-plugin-cypress": "^2.11.3",
-    "eslint-plugin-flowtype": "5.9.2",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.25.1",
-    "eslint-plugin-react-hooks": "4.2.0",
     "husky": "^4.3.8",
     "jest": "^27.1.0",
     "lint-staged": "^11.1.2",
@@ -60,12 +53,12 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "yarn run tsc && yarn test"
+      "pre-push": "yarn run typecheck && yarn test"
     }
   },
   "lint-staged": {
     "*.{ts,tsx,js}": [
-      "eslint --max-warnings 0"
+      "yarn lint --max-warnings 0"
     ],
     "*.{ts,tsx,js,css,json,md,mdx}": [
       "prettier --write",
