@@ -17,7 +17,9 @@
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^11.1.2",
-    "@theme-ui/presets": "^0.10.0",
+    "@theme-ui/css": "^0.11.1",
+    "@theme-ui/preset-deep": "^0.11.1",
+    "@theme-ui/preset-swiss": "^0.11.1",
     "@theme-ui/style-guide": "^0.11.1",
     "next": "^11.1.2",
     "next-nprogress-emotion": "^2.0.0",
@@ -67,5 +69,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "resolutions": {
+    "@theme-ui/preset-sketchy": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.0.tgz"
   }
 }
