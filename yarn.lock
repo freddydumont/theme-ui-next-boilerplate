@@ -1160,6 +1160,14 @@
     "@theme-ui/parse-props" "0.11.1"
     deepmerge "^4.2.2"
 
+"@theme-ui/css@0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.10.0.tgz#871f63334fb138491406c32f8347d53b19846a9b"
+  integrity sha512-Up3HqXoy2ERn/9gVxApCSl2n9vwtHBwPrYlMyEjX0YPs/rxmo+Aqe3kAxO+SG9idMw08mtdaDfMIFaPsBE5ovA==
+  dependencies:
+    "@emotion/react" "^11.1.1"
+    csstype "^3.0.5"
+
 "@theme-ui/css@0.11.1", "@theme-ui/css@^0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.11.1.tgz#e91f58306bd015c813f72b4dce25850a93d5ba47"
@@ -1242,9 +1250,12 @@
   dependencies:
     "@theme-ui/preset-base" "0.11.1"
 
-"@theme-ui/preset-sketchy@0.11.1", "@theme-ui/preset-sketchy@https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.0.tgz":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.0.tgz#7ff0adb2a0e32b1a0a48f432cf31c16b53f7f4ea"
+"@theme-ui/preset-sketchy@0.10.0", "@theme-ui/preset-sketchy@0.11.1":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-sketchy/-/preset-sketchy-0.10.0.tgz#47e24711a21eed86837656582721305303331b8a"
+  integrity sha512-jb6lsFlJ8lFrZi4QOkJQIPn8gZlcAep41L+mso3BQ25eeQkwGbk32dBCCNV+Jf5MoyZeTBLnwVCSLmNuYMGopw==
+  dependencies:
+    "@theme-ui/css" "0.10.0"
 
 "@theme-ui/preset-swiss@0.11.1", "@theme-ui/preset-swiss@^0.11.1":
   version "0.11.1"

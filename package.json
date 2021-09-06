@@ -66,6 +66,6 @@
     ]
   },
   "resolutions": {
-    "@theme-ui/preset-sketchy": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.0.tgz"
+    "@theme-ui/preset-sketchy": "0.10.0"
   }
 }
