@@ -12,7 +12,9 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "cypress:open": "cypress open"
+    "typecheck": "tsc --noEmit --pretty ",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
