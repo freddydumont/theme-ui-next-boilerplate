@@ -1217,10 +1217,15 @@
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-dark/-/preset-dark-0.11.1.tgz#d44bf934982610c289164fd5158e3013234052aa"
   integrity sha512-ztxaZy7wUUZzruUwq1lY5tuMqcQArq8Ved+3ZU7ypNkBaEZEo0rFVN0ygNERfLo7ljq8tsS1PR7yXXCATuATeA==
 
-"@theme-ui/preset-deep@0.11.1", "@theme-ui/preset-deep@^0.11.1":
+"@theme-ui/preset-deep@0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.11.1.tgz#2d20f42f73475c3aa281924130e6ff8d1ae20e93"
   integrity sha512-D9+vt1BIKKj+sTg1essfrVtUpNHdCrZi7z47vVsdTfVRcVvyH3ZocvClPrbY8yyf1lzDuD27ivGE+EpNT+Exdg==
+
+"@theme-ui/preset-deep@^0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.11.2.tgz#ef20eeb802689ee46e46890afb7922c3f06ad3d7"
+  integrity sha512-sX9Z6EdirTud/VE+113g5adXDtucRJdNl+SYD6LtyPmnyHU7e5aBvokyaoLxCzzcSOlyfgPCzxcfbel+gpoXdw==
 
 "@theme-ui/preset-funk@0.11.1":
   version "0.11.1"
