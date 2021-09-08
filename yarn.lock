@@ -1257,10 +1257,15 @@
   dependencies:
     "@theme-ui/css" "0.10.0"
 
-"@theme-ui/preset-swiss@0.11.1", "@theme-ui/preset-swiss@^0.11.1":
+"@theme-ui/preset-swiss@0.11.1":
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.11.1.tgz#e9aba7e2f2c7d6ba613cd7717696a2a9f4084e53"
   integrity sha512-f++xui1MnZixjN8sAwjdDSrnhGN9zVqKvqD2KDYImG8tQAG2+HmsBgzizDuVuu4TBWtdoU1vXRFDegJREnX4ww==
+
+"@theme-ui/preset-swiss@^0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.11.2.tgz#9112ad129da778e03d5c411ebfee4689c2a0ed87"
+  integrity sha512-mWrO4RYguX6bMAe8/EpTc5dyPA6Wh5wjPOll73p5MmP2sf2XKIweCm4g2RM4phJlvWipDpN5AvY+BtSGkfafwQ==
 
 "@theme-ui/preset-system@0.11.1":
   version "0.11.1"
