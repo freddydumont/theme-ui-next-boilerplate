@@ -22,7 +22,7 @@
     "@next/mdx": "^11.1.2",
     "@theme-ui/css": "^0.11.1",
     "@theme-ui/preset-deep": "^0.11.1",
-    "@theme-ui/preset-swiss": "^0.11.1",
+    "@theme-ui/preset-swiss": "^0.11.2",
     "@theme-ui/style-guide": "^0.11.1",
     "next": "^11.1.2",
     "next-nprogress-emotion": "^2.0.0",
