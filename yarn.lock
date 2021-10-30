@@ -481,16 +481,16 @@
     source-map "^0.5.7"
     stylis "^4.0.3"
 
-"@emotion/cache@^11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.0.0.tgz#473adcaf9e04c6a0e30fb1421e79a209a96818f8"
-  integrity sha512-NStfcnLkL5vj3mBILvkR2m/5vFxo3G0QEreYKDGHNHm9IMYoT/t3j6xwjx6lMI/S1LUJfVHQqn0m9wSINttTTQ==
+"@emotion/cache@^11.5.0":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.5.0.tgz#a5eb78cbef8163939ee345e3ddf0af217b845e62"
+  integrity sha512-mAZ5QRpLriBtaj/k2qyrXwck6yeoz1V5lMt/jfj6igWU35yYlNKs2LziXVgvH81gnJZ+9QQNGelSsnuoAy6uIw==
   dependencies:
     "@emotion/memoize" "^0.7.4"
-    "@emotion/sheet" "^1.0.0"
+    "@emotion/sheet" "^1.0.3"
     "@emotion/utils" "^1.0.0"
     "@emotion/weak-memoize" "^0.2.5"
-    stylis "^4.0.3"
+    stylis "^4.0.10"
 
 "@emotion/css-prettifier@^1.0.0":
   version "1.0.0"
@@ -540,15 +540,15 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
   integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
 
-"@emotion/react@^11.1.1":
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.1.1.tgz#4b304d494af321b0179e6763830e07cf674f0423"
-  integrity sha512-otA0Np8OnOeU9ChkOS9iuLB6vIxiM+bJiU0id33CsQn3R2Pk9ijVHnxevENIKV/P2S7AhrD8cFbUGysEciWlEA==
+"@emotion/react@^11.1.1", "@emotion/react@^11.4.1":
+  version "11.5.0"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.5.0.tgz#19b5771bbfbda5e8517e948a2d9064810f0022bd"
+  integrity sha512-MYq/bzp3rYbee4EMBORCn4duPQfgpiEB5XzrZEBnUZAL80Qdfr7CEv/T80jwaTl/dnZmt9SnTa8NkTrwFNpLlw==
   dependencies:
-    "@babel/runtime" "^7.7.2"
-    "@emotion/cache" "^11.0.0"
-    "@emotion/serialize" "^1.0.0"
-    "@emotion/sheet" "^1.0.0"
+    "@babel/runtime" "^7.13.10"
+    "@emotion/cache" "^11.5.0"
+    "@emotion/serialize" "^1.0.2"
+    "@emotion/sheet" "^1.0.3"
     "@emotion/utils" "^1.0.0"
     "@emotion/weak-memoize" "^0.2.5"
     hoist-non-react-statics "^3.3.1"
@@ -564,10 +564,21 @@
     "@emotion/utils" "^1.0.0"
     csstype "^3.0.2"
 
-"@emotion/sheet@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.0.0.tgz#a0ef06080f339477ad4ba7f56e1c931f7ba50822"
-  integrity sha512-cdCHfZtf/0rahPDCZ9zyq+36EqfD/6c0WUqTFZ/hv9xadTUv2lGE5QK7/Z6Dnx2oRxC0usfVM2/BYn9q9B9wZA==
+"@emotion/serialize@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-1.0.2.tgz#77cb21a0571c9f68eb66087754a65fa97bfcd965"
+  integrity sha512-95MgNJ9+/ajxU7QIAruiOAdYNjxZX7G2mhgrtDWswA21VviYIRP1R5QilZ/bDY42xiKsaktP4egJb3QdYQZi1A==
+  dependencies:
+    "@emotion/hash" "^0.8.0"
+    "@emotion/memoize" "^0.7.4"
+    "@emotion/unitless" "^0.7.5"
+    "@emotion/utils" "^1.0.0"
+    csstype "^3.0.2"
+
+"@emotion/sheet@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.0.3.tgz#00c326cd7985c5ccb8fe2c1b592886579dcfab8f"
+  integrity sha512-YoX5GyQ4db7LpbmXHMuc8kebtBGP6nZfRC5Z13OKJMixBEwdZrJ914D6yJv/P+ZH/YY3F5s89NYX2hlZAf3SRQ==
 
 "@emotion/styled@^11.0.0":
   version "11.0.0"
@@ -1165,13 +1176,21 @@
     "@theme-ui/parse-props" "0.11.3"
     deepmerge "^4.2.2"
 
-"@theme-ui/css@0.11.3", "@theme-ui/css@^0.11.3":
+"@theme-ui/css@0.11.3":
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.11.3.tgz#9962db78b9d60a96b2f6497f858e6baa7aa0f5c5"
   integrity sha512-b2vRZEc6ZBMYCVFqvSSrWdVbKgSJHOOTMow1czApJjrmZBygkG9DN0/1hgO9spDkmfp/tmRmBzrTlgFlE6pybA==
   dependencies:
     "@emotion/react" "^11.1.1"
     csstype "^3.0.5"
+
+"@theme-ui/css@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.12.0.tgz#06f221015b2ad2899809f6146777594c2325ec06"
+  integrity sha512-AyByR/Z1OpiVk2EdLzl5pfFvF/qoc95w1RpoDe6SjQydWEIPAea1m8O1RsGbJXS8YPVY3SBPlCs7WkAHEEctvg==
+  dependencies:
+    "@emotion/react" "^11.4.1"
+    csstype "^3.0.9"
 
 "@theme-ui/mdx@0.11.3":
   version "0.11.3"
@@ -2601,10 +2620,10 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2, csstype@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
-  integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
+csstype@^3.0.2, csstype@^3.0.5, csstype@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.9.tgz#6410af31b26bd0520933d02cbc64fce9ce3fbf0b"
+  integrity sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==
 
 cypress@^8.7.0:
   version "8.7.0"
