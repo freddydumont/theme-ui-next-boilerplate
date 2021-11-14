@@ -55,8 +55,7 @@
       "yarn lint --max-warnings 0"
     ],
     "*.{ts,tsx,js,css,json,md,mdx}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
