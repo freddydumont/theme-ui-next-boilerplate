@@ -15,7 +15,8 @@
     "test:cov": "jest --coverage",
     "typecheck": "tsc --noEmit --pretty ",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
@@ -43,17 +44,11 @@
     "eslint": "^7.32.0",
     "eslint-config-next": "12.0.3",
     "eslint-plugin-cypress": "^2.12.1",
-    "husky": "^4.3.8",
+    "husky": "^7.0.4",
     "jest": "^27.3.1",
     "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run typecheck && yarn test"
-    }
   },
   "lint-staged": {
     "*.{ts,tsx,js}": [
