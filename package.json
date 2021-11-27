@@ -38,7 +38,7 @@
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.11.10",
-    "@types/react": "^17.0.35",
+    "@types/react": "^17.0.37",
     "babel-jest": "^27.3.1",
     "cypress": "^8.7.0",
     "eslint": "^7.32.0",
