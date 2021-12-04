@@ -889,10 +889,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/mdx@^12.0.4":
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.4.tgz#8c3e74ba1fd8322f3a883e36718b5f00109f5041"
-  integrity sha512-WsiuZkzhECLp91ZGErhPKzASsFSRwcoHATOeZZvrkyjXiBodem/M3qFev6GPe9g2Ejw5Kt2DdbwUlkELDpz8aw==
+"@next/mdx@^12.0.5":
+  version "12.0.5"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-12.0.5.tgz#99f6f04adb83030f7aec2b076650cc0cc036ed62"
+  integrity sha512-QPXPSxevuIFrdAgIjdt4g++4viomSbfNnXxTFnUwzRcq8wa85hnyj/rn3wXmime3OxgA7FtLgiAng+psmF8QRA==
 
 "@next/polyfill-module@12.0.4":
   version "12.0.4"
