@@ -37,7 +37,7 @@
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.11",
+    "@types/node": "^16.11.12",
     "@types/react": "^17.0.37",
     "babel-jest": "^27.4.2",
     "cypress": "^9.1.1",
