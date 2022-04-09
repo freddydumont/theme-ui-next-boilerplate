@@ -464,10 +464,10 @@
   dependencies:
     "@emotion/memoize" "^0.7.4"
 
-"@emotion/jest@^11.8.0":
-  version "11.8.0"
-  resolved "https://registry.yarnpkg.com/@emotion/jest/-/jest-11.8.0.tgz#c7e6c6d2a58ee25b5078bf79dc738361669a9d7c"
-  integrity sha512-LfiD3cmPekVFky4L9Z9D2LpD/25JnJs1EalJGP/bmDJlqPiV8rLzUVwtfNvq7lk68o4GMxg/VRf28qPPeZKEPQ==
+"@emotion/jest@^11.9.1":
+  version "11.9.1"
+  resolved "https://registry.yarnpkg.com/@emotion/jest/-/jest-11.9.1.tgz#65224814552eab6acb923504e597c6f6b67e90d6"
+  integrity sha512-JFf9yBA6a7fKrKCWMmjODGRcgBnjiQsl9AakP1y7oRJ6B147ZKPo8DgzHUZ5qQkI06GKAWwYU1vKROInc7SYVA==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@emotion/css-prettifier" "^1.0.1"
@@ -1116,13 +1116,6 @@
     "@theme-ui/css" "0.14.2"
     "@theme-ui/parse-props" "0.14.2"
     deepmerge "^4.2.2"
-
-"@theme-ui/css@0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.14.1.tgz#c41e1f1409de682f1a765ac8d882d2f441435696"
-  integrity sha512-bABQOqDqZj7BzuvlmW8hAscmaQGbcUxd+bey7aAu0EoBgeTUrBRx1Nn/UQUVMahnAiD5dCF9CBw6rUUUz6Y6Zw==
-  dependencies:
-    csstype "^3.0.10"
 
 "@theme-ui/css@0.14.2", "@theme-ui/css@^0.14.1":
   version "0.14.2"
