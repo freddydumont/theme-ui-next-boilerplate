@@ -1109,10 +1109,17 @@
     "@theme-ui/parse-props" "0.14.2"
     deepmerge "^4.2.2"
 
-"@theme-ui/css@0.14.2", "@theme-ui/css@^0.14.1":
+"@theme-ui/css@0.14.2":
   version "0.14.2"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.14.2.tgz#21adc085a686fc45e548ae08a4216cb1a36d71b4"
   integrity sha512-xQdXgDjiyrB3ScjqLabRzup5OmJ5pOdIvfSQfA/iVOZi/SZl4nYqRyf7WRyvpiq+vlXxlrpwFwUV/9MCXuiKxw==
+  dependencies:
+    csstype "^3.0.10"
+
+"@theme-ui/css@^0.14.3":
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.14.3.tgz#dcd479a599cf5944c53120b88360b76874cd9890"
+  integrity sha512-aOmCIgIoXc1bqSKjnjrDOX58YEsh+CR2i9zCEFFKEdnjl7pjD/1WgkTROCrpXPCrvKwk90tA9nVt6MC6tTT+EA==
   dependencies:
     csstype "^3.0.10"
 
