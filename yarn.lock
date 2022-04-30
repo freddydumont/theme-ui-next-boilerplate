@@ -1109,13 +1109,6 @@
     "@theme-ui/parse-props" "0.14.3"
     deepmerge "^4.2.2"
 
-"@theme-ui/css@0.14.2":
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.14.2.tgz#21adc085a686fc45e548ae08a4216cb1a36d71b4"
-  integrity sha512-xQdXgDjiyrB3ScjqLabRzup5OmJ5pOdIvfSQfA/iVOZi/SZl4nYqRyf7WRyvpiq+vlXxlrpwFwUV/9MCXuiKxw==
-  dependencies:
-    csstype "^3.0.10"
-
 "@theme-ui/css@0.14.3", "@theme-ui/css@^0.14.3":
   version "0.14.3"
   resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.14.3.tgz#dcd479a599cf5944c53120b88360b76874cd9890"
@@ -2282,10 +2275,10 @@ csstype@^3.0.10, csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.11.tgz#d66700c5eacfac1940deb4e3ee5642792d85cd33"
   integrity sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==
 
-cypress@^9.5.4:
-  version "9.5.4"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-9.5.4.tgz#49d9272f62eba12f2314faf29c2a865610e87550"
-  integrity sha512-6AyJAD8phe7IMvOL4oBsI9puRNOWxZjl8z1lgixJMcgJ85JJmyKeP6uqNA0dI1z14lmJ7Qklf2MOgP/xdAqJ/Q==
+cypress@^9.6.0:
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-9.6.0.tgz#84473b3362255fa8f5e627a596e58575c9e5320f"
+  integrity sha512-nNwt9eBQmSENamwa8LxvggXksfyzpyYaQ7lNBLgks3XZ6dPE/6BCQFBzeAyAPt/bNXfH3tKPkAyhiAZPYkWoEg==
   dependencies:
     "@cypress/request" "^2.88.10"
     "@cypress/xvfb" "^1.2.4"
