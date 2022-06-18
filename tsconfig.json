@@ -18,8 +18,9 @@
     "baseUrl": ".",
     "paths": {
       "test-utils": ["test/test-utils"]
-    }
+    },
+    "types": ["jest", "@testing-library/jest-dom"]
   },
-  "exclude": ["node_modules", "cypress", "coverage", ".github", "test"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "exclude": ["node_modules", "coverage", ".github"],
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"]
 }
