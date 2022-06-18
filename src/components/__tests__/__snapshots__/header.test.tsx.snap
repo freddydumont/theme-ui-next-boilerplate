@@ -96,7 +96,7 @@ exports[`Header should match snapshot 1`] = `
         class="emotion-4"
       >
         Toggle 
-        Light
+        Dark
       </button>
     </nav>
   </header>

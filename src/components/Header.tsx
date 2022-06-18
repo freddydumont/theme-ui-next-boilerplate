@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useColorMode, Container, Flex, NavLink, Button } from 'theme-ui';
+import { Button, Container, Flex, NavLink, useColorMode } from 'theme-ui';
 
 export default function Header() {
   const [colorMode, setColorMode] = useColorMode();
@@ -16,9 +16,9 @@ export default function Header() {
         </Link>
         <Button
           ml="auto"
-          onClick={() => setColorMode(colorMode === 'light' ? 'dark' : 'light')}
+          onClick={() => setColorMode(colorMode === 'dark' ? 'light' : 'dark')}
         >
-          Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+          Toggle {colorMode === 'dark' ? 'Light' : 'Dark'}
         </Button>
       </Flex>
     </Container>
