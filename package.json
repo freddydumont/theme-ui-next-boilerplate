@@ -29,7 +29,7 @@
     "@theme-ui/css": "^0.14.4",
     "@theme-ui/presets": "^0.14.2",
     "@theme-ui/style-guide": "^0.14.5",
-    "next": "^12.2.1",
+    "next": "^12.2.2",
     "next-nprogress-emotion": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
