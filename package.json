@@ -27,7 +27,7 @@
     "@mdx-js/react": "^1.6.22",
     "@next/mdx": "^12.2.3",
     "@theme-ui/css": "^0.14.7",
-    "@theme-ui/presets": "^0.14.2",
+    "@theme-ui/presets": "^0.14.7",
     "@theme-ui/style-guide": "^0.14.5",
     "next": "^12.2.3",
     "next-nprogress-emotion": "^2.0.0",
