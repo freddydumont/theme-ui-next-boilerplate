@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@emotion/css": "^11.9.0",
-    "@emotion/react": "^11.9.0",
+    "@emotion/react": "^11.10.0",
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.8.1",
     "@mdx-js/loader": "^1.6.22",
