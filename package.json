@@ -36,7 +36,7 @@
     "theme-ui": "^0.14.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.13",
+    "@babel/core": "^7.19.0",
     "@emotion/jest": "^11.10.0",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.5",
