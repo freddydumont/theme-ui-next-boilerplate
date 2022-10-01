@@ -1249,6 +1249,13 @@
   dependencies:
     csstype "^3.0.10"
 
+"@theme-ui/css@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.15.1.tgz#bcbc04eecb4cf46eb92fe2395afe797219ccdf01"
+  integrity sha512-Ab0t6cnLC09OzfO+SaxzUJWRr4RGfzVm/gpSjZP6CK4UETwWkQ3S2wQdeIBqD4nss0Df6PQkscpGe3eVPjXcdQ==
+  dependencies:
+    csstype "^3.0.10"
+
 "@theme-ui/mdx@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/mdx/-/mdx-0.14.7.tgz#638e7bb23aa46c43b544fc31be6ab647fb2227a1"
@@ -1269,10 +1276,20 @@
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.14.7.tgz#0d3d7b645c86d74d01d698f20269875fe86eeec3"
   integrity sha512-RXkx2xAX/De+FoB2QVGCZ4FTWZwjX8+qoFe8ygd1LOhOrcIo9L2z9nP9Jxy/c3g+TFyf0lICBVy9roodSC5OeA==
 
+"@theme-ui/preset-base@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.15.1.tgz#b5bc4e183a6e8559c14cc0fa53e56c54185c3946"
+  integrity sha512-5PhJiF8SSENlMKsmXD/tHTP0ZBpFYfRw1T3qboeHL4yY/W466tOvaUhH58EhcpzVuOwxzSkXQsTwzK+gP/7VzQ==
+
 "@theme-ui/preset-bootstrap@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-bootstrap/-/preset-bootstrap-0.14.7.tgz#daa05b419a5d83cc91659aa2a391bdfc625550f3"
   integrity sha512-6kXPT6qNjYpZDKNo095ZiRg9WFri8qsQTIu9jkbEpPVR+LeIpkRVZo9Kez7qtVJNXyBhTkZQnEiNTqjtDgVcZQ==
+
+"@theme-ui/preset-bootstrap@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-bootstrap/-/preset-bootstrap-0.15.1.tgz#712cc2b0e8ea6190fd7dc24fe804aa21bff5ac81"
+  integrity sha512-v0A6jdur+E45LbsSPkpWYsqUmnhl5hzMBNlmSpSf+g3OzdbXLP6fXZvfUHJUzb/4j6oI03dn8+EBG/qKVOw2aA==
 
 "@theme-ui/preset-bulma@0.14.7":
   version "0.14.7"
@@ -1281,15 +1298,32 @@
   dependencies:
     "@theme-ui/preset-base" "0.14.7"
 
+"@theme-ui/preset-bulma@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-bulma/-/preset-bulma-0.15.1.tgz#0c3512300e26f6fd62566b6b20db3fecaff861e6"
+  integrity sha512-UYhqKKIvP3g/PwdiHYL8e0vemDQoUSHtZ4ge91k8dXCfUzFrdAUUMurF0I5vYwOZc5OzYhl83hitXJTbsFZhkw==
+  dependencies:
+    "@theme-ui/preset-base" "^0.15.1"
+
 "@theme-ui/preset-dark@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-dark/-/preset-dark-0.14.7.tgz#87d14b1e51e6a855e0756a4787166d35931b6fe2"
   integrity sha512-aOFgUgsVyL/rLEdj0DorJcqCWXOAWuDLQqsBzJfcTKq16wRi1ykol+5Ib5E7noLCnu0sVbPrFCeOKfSYXtUKiQ==
 
+"@theme-ui/preset-dark@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-dark/-/preset-dark-0.15.1.tgz#d696ec4a1617336f1c66a3d483ee647b6aa8000f"
+  integrity sha512-/1eqvyInHvcrPRtidinXR4XPk4U9V/JsCihO3LCQ4nc9LxgHBZiwp5u1PaZUBZRzPKnlzAgER800Wf/MoTNRZg==
+
 "@theme-ui/preset-deep@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.14.7.tgz#136e3cf9d908d66706bc4ffba2de45eca31f5bb8"
   integrity sha512-h3IzSjXXLnun9bKuZvzbXa0LqhOJ0FGzQoztAy/JhlKGy0M+uLXh9trycL+COdRwGqzV9mq4jilvcLQLtBq+yg==
+
+"@theme-ui/preset-deep@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.15.1.tgz#409bbc3c927953abeb3d5c0aa73e8164f196c340"
+  integrity sha512-PjNxOHEYAPp8lTYewupFhXT5gny9w8eKQFAd6ZrYAmfAu0McTEHoG8SPkL6iPDefz+O6Y4RrkW9vUrOkRFl3Ng==
 
 "@theme-ui/preset-funk@0.14.7":
   version "0.14.7"
@@ -1298,12 +1332,26 @@
   dependencies:
     "@theme-ui/preset-base" "0.14.7"
 
+"@theme-ui/preset-funk@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-funk/-/preset-funk-0.15.1.tgz#665ed2624390c93031b16d8dc7ffbb10e2bcfcac"
+  integrity sha512-nzxD2RAcIPvjY2jCQfhuIEEIox5RhytAK6IuK1TUg3SBocNMR1LrQW+dy7T6HS2RccUTejeCmsv+Ntrd+Onziw==
+  dependencies:
+    "@theme-ui/preset-base" "^0.15.1"
+
 "@theme-ui/preset-future@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-future/-/preset-future-0.14.7.tgz#395d82f08c15d6f2590237ba343761128a865e79"
   integrity sha512-rCiluhd6y7cstUXrNQuN4ktcXMMRv+74KYuuMdfeh2YOOAhK5pagV3VpKnYSrhdYIkuEsikciDJeePx9G/DXWw==
   dependencies:
     "@theme-ui/preset-base" "0.14.7"
+
+"@theme-ui/preset-future@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-future/-/preset-future-0.15.1.tgz#2d68b4629027f8eccddbde55bc9d7d772937fb24"
+  integrity sha512-/H8puKMbJ1DMscB2NWbtBs0+hgI4acOkQ8CHZGAk8+i55God+69Ded0cuOmyAW0dTpHSHza34aXzEUpGR618Zw==
+  dependencies:
+    "@theme-ui/preset-base" "^0.15.1"
 
 "@theme-ui/preset-polaris@0.14.7":
   version "0.14.7"
@@ -1312,12 +1360,26 @@
   dependencies:
     "@theme-ui/preset-base" "0.14.7"
 
+"@theme-ui/preset-polaris@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-polaris/-/preset-polaris-0.15.1.tgz#45919f41572629f6dfa87cfba95ba091b510fbd0"
+  integrity sha512-hdvbOQd8JR6DkBMIwQDhbSHnwNR3W1Tmj1E4cmArs1DMy3XLw3g+apkCGqtrTY52WDjPSyJLl9djlMxIMFb+4Q==
+  dependencies:
+    "@theme-ui/preset-base" "^0.15.1"
+
 "@theme-ui/preset-roboto@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-roboto/-/preset-roboto-0.14.7.tgz#ac5bc1a7de3bf348968c17ee26c8301d21461882"
   integrity sha512-me3Sg8ZefpENJ1hmWVjT6qHNZ/AspxW6bhHH1NG8A84nCwXgOR47Mch333qTkNwH2IBooL+3LvU1utFPSnn+DA==
   dependencies:
     "@theme-ui/preset-base" "0.14.7"
+
+"@theme-ui/preset-roboto@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-roboto/-/preset-roboto-0.15.1.tgz#bed9506ace6ec5ab81dc6c4237b65387f21a747f"
+  integrity sha512-qdq1lUJm/YD88BxOdgdSBIK7LbtnOB5LEfcLpob4lJce/DOrL66eh592kich6fdKoH+Vv6Iu5g4+X4DW2m4n6g==
+  dependencies:
+    "@theme-ui/preset-base" "^0.15.1"
 
 "@theme-ui/preset-sketchy@0.14.7":
   version "0.14.7"
@@ -1326,27 +1388,54 @@
   dependencies:
     "@theme-ui/css" "0.14.7"
 
+"@theme-ui/preset-sketchy@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-sketchy/-/preset-sketchy-0.15.1.tgz#14e4cc04ba440dbae633835730b4909cb0cdc844"
+  integrity sha512-A6XGxjZipIKIyCKHWnQmYFPecY3Dk5Ls7fgvNR5KY+MouvTIumR3MU+xX534cu19XPqqhlKQC02y3zkZRWK5sg==
+  dependencies:
+    "@theme-ui/css" "^0.15.1"
+
 "@theme-ui/preset-swiss@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.14.7.tgz#658beda7d8ea690444faee088f44a4af9445aecd"
   integrity sha512-PbJBcaOJLN19JBU0pkeZy+Z9qOKZ8HdazOjM3CuDh4I/9Zihi3bi91emfrKTtYWEb6a4v/wRV7LcufSL26K43A==
+
+"@theme-ui/preset-swiss@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-swiss/-/preset-swiss-0.15.1.tgz#66d27514f4c84161bdd4e52d37c1c0471044b6e2"
+  integrity sha512-QnqjZ7IDanKBjfpMYnLNtYIJ6+J5WKQ6ANfxPh2eg3IiSfDSoSZzZkex4eiAvNhkMya3pxUZTyyyZcvpBy3h6g==
 
 "@theme-ui/preset-system@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-system/-/preset-system-0.14.7.tgz#1e7ccc22fd8fd5b09ba015b9dee7a634b5bd7664"
   integrity sha512-ws/P5d/BjgJOSbJAy9JjI/pjgC5se3ijrhs9DgnyRvg63WaOe+0bRijJmyRuLr92KJqNF5tNycsU4G1SOIBvgg==
 
+"@theme-ui/preset-system@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-system/-/preset-system-0.15.1.tgz#69c61e6f199a023cfd9cb92f40ff2fb903b7372a"
+  integrity sha512-QztGZ6doDZ37FBan6IKVW5kyqIv2Iblvy20pOQwBMXKjdqFImFLSydusG4iDMW/xxxephl/gxkQdKJnsoy/Qhg==
+
 "@theme-ui/preset-tailwind@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-tailwind/-/preset-tailwind-0.14.7.tgz#479cf6f3d5c62a3741976ee620d545d1c8344d66"
   integrity sha512-01NKh3Dlj1gdrb4wbhfKwt8pV9+ctN45LCNGz9FNyHUJl3YBuDsi7qIOjnFuxav/p0Wl2V2EounT5bQJmJ0n6w==
+
+"@theme-ui/preset-tailwind@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-tailwind/-/preset-tailwind-0.15.1.tgz#d5e54df1f6ad4cb8d12a12ce20eb4503bfb200e8"
+  integrity sha512-rNrEJKYQlJ0u/3qC3IrEq5YYO6AQ1cMAl7r4eoMGQjG77xKvn7aq5ItHUBe5pMPlUsegb8ubnIuUVuNZFr5OOg==
 
 "@theme-ui/preset-tosh@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-tosh/-/preset-tosh-0.14.7.tgz#d3af7f25f3d71d1566ab1ffbe655885a692b7a64"
   integrity sha512-xQ6F2y3umGYmEBC/Hh59ffiRJcXamE7OvA3BW5T6MFYAiKTMwDEZcTIDnCHy1sgL3dBeuMlnZX0387V+LDRglA==
 
-"@theme-ui/presets@0.14.7", "@theme-ui/presets@^0.14.7":
+"@theme-ui/preset-tosh@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/preset-tosh/-/preset-tosh-0.15.1.tgz#2cdbb1e81fe70f55c92ae72a68ebf71ecbbb2424"
+  integrity sha512-uEE5gRGRDOxRvJZQn7jSmQUQnwwIriTJIl5z3CNNseyacC6xb7g/O99Sr+td7IMCmmy55+AG/0hyXJibqkRuyg==
+
+"@theme-ui/presets@0.14.7":
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.14.7.tgz#d397feef8bdaf1a9620ae8eba40ac4b138c8ea50"
   integrity sha512-ISOyYvgnieI9Iyv8UUKVgsEE9EfbWRj3kN4bqkQAkiNjVqHldRLVwGPYfWlK+hi+XHSMVPnRSUNt71eayKBC0Q==
@@ -1365,6 +1454,26 @@
     "@theme-ui/preset-system" "0.14.7"
     "@theme-ui/preset-tailwind" "0.14.7"
     "@theme-ui/preset-tosh" "0.14.7"
+
+"@theme-ui/presets@^0.15.1":
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.15.1.tgz#725ad79c2c9b5609c8e8b41fce6217f994561a53"
+  integrity sha512-mZ8ZhwSMnJNjNRV4/kk6RtWvwLPVphzH/cHVhFL3WF110ttaDfphxLEoAQl7JQBOOZTW/wbJui3Utst+RZ391g==
+  dependencies:
+    "@theme-ui/preset-base" "^0.15.1"
+    "@theme-ui/preset-bootstrap" "^0.15.1"
+    "@theme-ui/preset-bulma" "^0.15.1"
+    "@theme-ui/preset-dark" "^0.15.1"
+    "@theme-ui/preset-deep" "^0.15.1"
+    "@theme-ui/preset-funk" "^0.15.1"
+    "@theme-ui/preset-future" "^0.15.1"
+    "@theme-ui/preset-polaris" "^0.15.1"
+    "@theme-ui/preset-roboto" "^0.15.1"
+    "@theme-ui/preset-sketchy" "^0.15.1"
+    "@theme-ui/preset-swiss" "^0.15.1"
+    "@theme-ui/preset-system" "^0.15.1"
+    "@theme-ui/preset-tailwind" "^0.15.1"
+    "@theme-ui/preset-tosh" "^0.15.1"
 
 "@theme-ui/style-guide@^0.14.7":
   version "0.14.7"
