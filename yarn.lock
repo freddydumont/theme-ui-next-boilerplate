@@ -1228,12 +1228,12 @@
     "@theme-ui/css" "0.14.7"
     deepmerge "^4.2.2"
 
-"@theme-ui/color@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.15.1.tgz#b6a69524c3ce93e0c16beaf79462722b026dbc28"
-  integrity sha512-ubWPDkKRfys5Tp5ID9xpOlSGDGRkIU4sOTQ57jv7+YvKJuRYX5IBZ39M9w4MaMQTsxEzxLloZ4ftnVG8UxwisQ==
+"@theme-ui/color@^0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.15.3.tgz#80ceb236ed2b531a0f568c6bc8898b25abaf2ee3"
+  integrity sha512-VfW169ocLUEYqUXJQb0Y2Z0jFv3MSbYNiu7OFlMJRG4vFvLSjtkgswCbJ8dnAXf/d3xOHS1qzwSY+ic3CoTf/A==
   dependencies:
-    "@theme-ui/css" "^0.15.1"
+    "@theme-ui/css" "^0.15.3"
     polished "^4.0.5"
 
 "@theme-ui/components@0.14.7":
@@ -1367,7 +1367,7 @@
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-tosh/-/preset-tosh-0.15.3.tgz#a4def86de0b0c1ceae85f514d3e36217a715e377"
   integrity sha512-U3clJ1GIKX50OZQf5mb41ita86ojKEvatIveZBn876XQnwvc3anHv3j7KToFVJGAY/yu/P/cQBK4n1pUYxlBXg==
 
-"@theme-ui/presets@^0.15.1", "@theme-ui/presets@^0.15.3":
+"@theme-ui/presets@^0.15.3":
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/@theme-ui/presets/-/presets-0.15.3.tgz#858cf54729ccaf90525091ab28d1ccb0e8ba5d51"
   integrity sha512-vv+TFa6GA0PCwZ+tc7IgrGhB8k+WkmKVA15FmwXXPSYNAzfZEG1EouOYct2FV+c4pj3ZE0imQ1lmO0dLoOcjZA==
@@ -1387,13 +1387,13 @@
     "@theme-ui/preset-tailwind" "^0.15.3"
     "@theme-ui/preset-tosh" "^0.15.3"
 
-"@theme-ui/style-guide@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@theme-ui/style-guide/-/style-guide-0.15.1.tgz#a6d019b7a7d2bb36461494d69cb8795b94fc211b"
-  integrity sha512-+yhmIODavYyJHpOmeu3z2mDtksRJpDQmn4CGH6t6fce+jhoR7XJtIGLetaM/CSLNKxS0LNyqMBbrdBO80ruj1w==
+"@theme-ui/style-guide@^0.15.3":
+  version "0.15.3"
+  resolved "https://registry.yarnpkg.com/@theme-ui/style-guide/-/style-guide-0.15.3.tgz#7fa6158862bad858838ddbf21873efc5d8755f60"
+  integrity sha512-AuPi9GxRz9AXKxOA485z3smkk8fBD1pAqrmXQJ8F631zuGxeHPDk0mjxLl+2I59cH4poAcu+xYwRPPj/B1uUXA==
   dependencies:
-    "@theme-ui/color" "^0.15.1"
-    "@theme-ui/presets" "^0.15.1"
+    "@theme-ui/color" "^0.15.3"
+    "@theme-ui/presets" "^0.15.3"
     "@types/color" "^3.0.3"
     color "^3.1.2"
     lodash.get "^4.4.2"
