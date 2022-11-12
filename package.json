@@ -46,7 +46,7 @@
     "@types/react": "^18.0.21",
     "cypress": "^10.10.0",
     "eslint": "^8.26.0",
-    "eslint-config-next": "12.3.1",
+    "eslint-config-next": "13.0.3",
     "eslint-plugin-cypress": "^2.12.1",
     "husky": "^8.0.1",
     "jest": "^29.2.1",
