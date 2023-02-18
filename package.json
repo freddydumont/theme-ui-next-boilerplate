@@ -42,7 +42,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.2.0",
-    "@types/node": "^18.11.3",
+    "@types/node": "^18.14.0",
     "@types/react": "^18.0.21",
     "cypress": "^10.10.0",
     "eslint": "^8.26.0",
